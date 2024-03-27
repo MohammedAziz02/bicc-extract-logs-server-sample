@@ -14,7 +14,9 @@
         "koa": "^2.13.4",
         "koa-body": "^4.2.0",
         "koa-logger": "^3.2.1",
-        "koa-router": "^10.1.1"
+        "koa-router": "^10.1.1",
+        "web3-utils": "~4.1.1",
+        "network": "~0.6.0"
     },
     "scripts": {
         "debug": "DEBUG=pd* nodemon --inspect-brk --harmony --nolazy server.js -e js,mustache,json,yaml"
